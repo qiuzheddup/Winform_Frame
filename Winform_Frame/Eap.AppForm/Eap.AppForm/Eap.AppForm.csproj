@@ -1,0 +1,239 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{353018FE-20F2-43CE-ADD1-7C30B9CDFC10}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Eap.AppForm</RootNamespace>
+    <AssemblyName>Eap.AppForm</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>..\..\bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="Bll.cs" />
+    <Compile Include="DalOracle.cs" />
+    <Compile Include="frmChangePwd.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmChangePwd.Designer.cs">
+      <DependentUpon>frmChangePwd.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmDepartmentManage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmDepartmentManage.Designer.cs">
+      <DependentUpon>frmDepartmentManage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmDepartmentManageEdit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmDepartmentManageEdit.Designer.cs">
+      <DependentUpon>frmDepartmentManageEdit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmFileManage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmFileManage.designer.cs">
+      <DependentUpon>frmFileManage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmLogQuery.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmLogQuery.designer.cs">
+      <DependentUpon>frmLogQuery.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmMenuManage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmMenuManage.Designer.cs">
+      <DependentUpon>frmMenuManage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmMenuManageEdit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmMenuManageEdit.Designer.cs">
+      <DependentUpon>frmMenuManageEdit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmServerProcessStatusQuery.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmServerProcessStatusQuery.Designer.cs">
+      <DependentUpon>frmServerProcessStatusQuery.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmSystemParameterManage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmSystemParameterManage.Designer.cs">
+      <DependentUpon>frmSystemParameterManage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmSystemParameterManageEdit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmSystemParameterManageEdit.Designer.cs">
+      <DependentUpon>frmSystemParameterManageEdit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmUserAuthorityEdit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmUserAuthorityEdit.Designer.cs">
+      <DependentUpon>frmUserAuthorityEdit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmUserManage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmUserManage.Designer.cs">
+      <DependentUpon>frmUserManage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmUserManageEdit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmUserManageEdit.Designer.cs">
+      <DependentUpon>frmUserManageEdit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmValueListDetailManageEdit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmValueListDetailManageEdit.Designer.cs">
+      <DependentUpon>frmValueListDetailManageEdit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmValueListManage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmValueListManage.Designer.cs">
+      <DependentUpon>frmValueListManage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmValueListManageEdit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmValueListManageEdit.Designer.cs">
+      <DependentUpon>frmValueListManageEdit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="frmShowEapItemList.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmShowEapItemList.Designer.cs">
+      <DependentUpon>frmShowEapItemList.cs</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="frmChangePwd.resx">
+      <DependentUpon>frmChangePwd.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmDepartmentManage.resx">
+      <DependentUpon>frmDepartmentManage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmDepartmentManageEdit.resx">
+      <DependentUpon>frmDepartmentManageEdit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmFileManage.resx">
+      <DependentUpon>frmFileManage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmLogQuery.resx">
+      <DependentUpon>frmLogQuery.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmMenuManage.resx">
+      <DependentUpon>frmMenuManage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmMenuManageEdit.resx">
+      <DependentUpon>frmMenuManageEdit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmServerProcessStatusQuery.resx">
+      <DependentUpon>frmServerProcessStatusQuery.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmSystemParameterManage.resx">
+      <DependentUpon>frmSystemParameterManage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmSystemParameterManageEdit.resx">
+      <DependentUpon>frmSystemParameterManageEdit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmUserAuthorityEdit.resx">
+      <DependentUpon>frmUserAuthorityEdit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmUserManage.resx">
+      <DependentUpon>frmUserManage.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmUserManageEdit.resx">
+      <DependentUpon>frmUserManageEdit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmValueListDetailManageEdit.resx">
+      <DependentUpon>frmValueListDetailManageEdit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmValueListManage.resx">
+      <DependentUpon>frmValueListManage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmValueListManageEdit.resx">
+      <DependentUpon>frmValueListManageEdit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmShowEapItemList.resx">
+      <DependentUpon>frmShowEapItemList.cs</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="Eap.ButtonRight">
+      <HintPath>..\..\..\发布包\Eap.ButtonRight.dll</HintPath>
+    </Reference>
+    <Reference Include="Eap.Config">
+      <HintPath>..\..\..\发布包\Eap.Config.dll</HintPath>
+    </Reference>
+    <Reference Include="Eap.Control.ButtonEx">
+      <HintPath>..\..\..\发布包\Eap.Control.ButtonEx.dll</HintPath>
+    </Reference>
+    <Reference Include="Eap.Control.DataGridViewEx">
+      <HintPath>..\..\..\发布包\Eap.Control.DataGridViewEx.dll</HintPath>
+    </Reference>
+    <Reference Include="Eap.Control.PageSelect">
+      <HintPath>..\..\..\发布包\Eap.Control.PageSelect.dll</HintPath>
+    </Reference>
+    <Reference Include="Eap.DbUnit.Oracle">
+      <HintPath>..\..\..\发布包\Eap.DbUnit.Oracle.dll</HintPath>
+    </Reference>
+    <Reference Include="Eap.Entity">
+      <HintPath>..\..\..\发布包\Eap.Entity.dll</HintPath>
+    </Reference>
+    <Reference Include="Eap.Enum">
+      <HintPath>..\..\..\发布包\Eap.Enum.dll</HintPath>
+    </Reference>
+    <Reference Include="Eap.Func">
+      <HintPath>..\..\..\发布包\Eap.Func.dll</HintPath>
+    </Reference>
+    <Reference Include="Eap.Log">
+      <HintPath>..\..\..\发布包\Eap.Log.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.OracleClient" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

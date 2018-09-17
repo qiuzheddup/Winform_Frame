@@ -1,0 +1,7 @@
+E:\Code\MES2\企业应用开发平台\源代码\bin\Eap.DbUnit.Oracle.dll
+E:\Code\MES2\企业应用开发平台\源代码\bin\Eap.DbUnit.Oracle.pdb
+E:\Code\MES2\企业应用开发平台\源代码\Eap.DbUnit.Oracle\Eap.DbUnit.Oracle\obj\Debug\Eap.DbUnit.Oracle.csprojResolveAssemblyReference.cache
+E:\Code\MES2\企业应用开发平台\源代码\Eap.DbUnit.Oracle\Eap.DbUnit.Oracle\obj\Debug\Eap.DbUnit.Oracle.dll
+E:\Code\MES2\企业应用开发平台\源代码\Eap.DbUnit.Oracle\Eap.DbUnit.Oracle\obj\Debug\Eap.DbUnit.Oracle.pdb
+E:\Code\MES2\工程管理系统\发布包\Eap.DbUnit.Oracle.dll
+E:\Code\MES2\工程管理系统\发布包\Eap.DbUnit.Oracle.pdb

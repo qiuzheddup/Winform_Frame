@@ -1,0 +1,227 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{BD72051F-F7E4-42ED-8D54-AB15AA977641}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Eap.Resource</RootNamespace>
+    <AssemblyName>Eap.Resource</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>..\..\bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="EapResource.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>EapResource.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="EapResource.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>EapResource.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Image\ButtonDisable.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Image\ButtonDown.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Image\ButtonUp.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Drawing" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Image\Add.png" />
+    <Content Include="Image\Backgroud.gif" />
+    <Content Include="Image\BrownButtonDisable.png" />
+    <Content Include="Image\BrownButtonDown.png" />
+    <Content Include="Image\BrownButtonUp.png" />
+    <Content Include="Image\ButtonExitBackground.png" />
+    <Content Include="Image\ButtonExitMouseDown.png" />
+    <Content Include="Image\Clean.png" />
+    <Content Include="Image\CloseButton.png" />
+    <Content Include="Image\CurrentPosition.png" />
+    <Content Include="Image\Delete.png" />
+    <Content Include="Image\LoginHead.gif" />
+    <Content Include="Image\MainLeftButton.png" />
+    <Content Include="Image\MainLeftButtonDown.png" />
+    <Content Include="Image\MainRightButton.png" />
+    <Content Include="Image\MainRightButtonDown.png" />
+    <Content Include="Image\Menu.png" />
+    <Content Include="Image\MinimizeButton.png" />
+    <Content Include="Image\Return.png" />
+    <Content Include="Image\Revise.png" />
+    <Content Include="Image\Search.png" />
+    <Content Include="Image\Service.png" />
+    <Content Include="Image\SubLeftButton.png" />
+    <Content Include="Image\SubLeftButtonDown.png" />
+    <Content Include="Image\SubRightButton.png" />
+    <Content Include="Image\SubRightButtonDown.png" />
+    <Content Include="MenuIcon\Eap.AppForm.frmChangePwd.png" />
+    <Content Include="MenuIcon\Eap.AppForm.frmDepartmentManage.png" />
+    <Content Include="MenuIcon\Eap.AppForm.frmFileManage.png" />
+    <Content Include="MenuIcon\Eap.AppForm.frmLogQuery.png" />
+    <Content Include="MenuIcon\Eap.AppForm.frmMenuManage.png" />
+    <Content Include="MenuIcon\Eap.AppForm.frmServerProcessStatusQuery.png" />
+    <Content Include="MenuIcon\Eap.AppForm.frmSystemParameterManage.png" />
+    <Content Include="MenuIcon\Eap.AppForm.frmUserManage.png" />
+    <Content Include="MenuIcon\Eap.AppForm.frmValueListManage.png" />
+    <Content Include="MenuIcon\Mes.Abide.AppForm.frmInStockTimeAbide.png" />
+    <Content Include="MenuIcon\Mes.Abide.AppForm.frmOrderAbide.png" />
+    <Content Include="MenuIcon\Mes.Abide.AppForm.frmPaintOfflineTimeAbide.png" />
+    <Content Include="MenuIcon\Mes.Abide.AppForm.frmPaintOnlineTimeAbide.png" />
+    <Content Include="MenuIcon\Mes.Abide.AppForm.frmPaintOrderAbsoluteAbide.png" />
+    <Content Include="MenuIcon\Mes.Abide.AppForm.frmPaintOrderRelativeAbide.png" />
+    <Content Include="MenuIcon\Mes.Abide.AppForm.frmTrimOfflineTimeAbide.png" />
+    <Content Include="MenuIcon\Mes.Abide.AppForm.frmTrimOnlineTimeAbide.png" />
+    <Content Include="MenuIcon\Mes.Abide.AppForm.frmTrimOrderAbsoluteAbide.png" />
+    <Content Include="MenuIcon\Mes.Abide.AppForm.frmTrimOrderRelativeAbide.png" />
+    <Content Include="MenuIcon\Mes.Actual.AppForm.frmActualGraph.png" />
+    <Content Include="MenuIcon\Mes.Actual.AppForm.frmActualMoniter.png" />
+    <Content Include="MenuIcon\Mes.Actual.AppForm.frmActualMoniterPassPoint.png" />
+    <Content Include="MenuIcon\Mes.Actual.AppForm.frmInStockRate.png" />
+    <Content Include="MenuIcon\Mes.Actual.AppForm.frmMonthProduceProgress.png" />
+    <Content Include="MenuIcon\Mes.Actual.AppForm.frmPaintDayBalance.png" />
+    <Content Include="MenuIcon\Mes.Actual.AppForm.frmProduceMoniter.png" />
+    <Content Include="MenuIcon\Mes.Actual.AppForm.frmProduceProgress.png" />
+    <Content Include="MenuIcon\Mes.Actual.AppForm.frmTrimDayBalance.png" />
+    <Content Include="MenuIcon\Mes.Car.AppForm.frmAdvanceCarQuery.png" />
+    <Content Include="MenuIcon\Mes.Car.AppForm.frmAdvanceCarTimeSetup.png" />
+    <Content Include="MenuIcon\Mes.Car.AppForm.frmCarBroken.png" />
+    <Content Include="MenuIcon\Mes.Car.AppForm.frmCarDetail.png" />
+    <Content Include="MenuIcon\Mes.Car.AppForm.frmCarFlagQuery.png" />
+    <Content Include="MenuIcon\Mes.Car.AppForm.frmCarFlagSetup.png" />
+    <Content Include="MenuIcon\Mes.Car.AppForm.frmCarInfoWarningCM7.png" />
+    <Content Include="MenuIcon\Mes.Car.AppForm.frmCarMove.png" />
+    <Content Include="MenuIcon\Mes.Car.AppForm.frmCarQuery.png" />
+    <Content Include="MenuIcon\Mes.Car.AppForm.frmDelayCarQuery.png" />
+    <Content Include="MenuIcon\Mes.Car.AppForm.frmDelayCarTimeSetup.png" />
+    <Content Include="MenuIcon\Mes.Car.AppForm.frmStopCarQuery.png" />
+    <Content Include="MenuIcon\Mes.Device.AppForm.frmPrinterManage.png" />
+    <Content Include="MenuIcon\Mes.Oee.AppForm.frmFixedStop.png" />
+    <Content Include="MenuIcon\Mes.Oee.AppForm.frmPaintLineStopMaintain.png" />
+    <Content Include="MenuIcon\Mes.Oee.AppForm.frmPaintOEE.png" />
+    <Content Include="MenuIcon\Mes.Oee.AppForm.frmTrimLineStopMaintain.png" />
+    <Content Include="MenuIcon\Mes.Oee.AppForm.frmTrimOEE.png" />
+    <Content Include="MenuIcon\Mes.Paint.AppForm.frmCheckOneScan.png" />
+    <Content Include="MenuIcon\Mes.Paint.AppForm.frmCheckTwoScan.png" />
+    <Content Include="MenuIcon\Mes.Paint.AppForm.frmElectrophoresisScan.png" />
+    <Content Include="MenuIcon\Mes.Paint.AppForm.frmMachineFinishScan.png" />
+    <Content Include="MenuIcon\Mes.Paint.AppForm.frmMachineMidScan.png" />
+    <Content Include="MenuIcon\Mes.Paint.AppForm.frmMachinePvcScan.png" />
+    <Content Include="MenuIcon\Mes.Paint.AppForm.frmMidPolishScan.png" />
+    <Content Include="MenuIcon\Mes.Paint.AppForm.frmPaintCarSeries.png" />
+    <Content Include="MenuIcon\Mes.Paint.AppForm.frmPaintColor.png" />
+    <Content Include="MenuIcon\Mes.Paint.AppForm.frmPaintOfflineScan.png" />
+    <Content Include="MenuIcon\Mes.Paint.AppForm.frmPaintOnline.png" />
+    <Content Include="MenuIcon\Mes.Paint.AppForm.frmSealantOneScan.png" />
+    <Content Include="MenuIcon\Mes.Paint.AppForm.frmSealantTwoScan.png" />
+    <Content Include="MenuIcon\Mes.Paint.AppForm.frmSkirtSideGlueScan.png" />
+    <Content Include="MenuIcon\Mes.Pbs.AppForm.frmContinueSetup.png" />
+    <Content Include="MenuIcon\Mes.Pbs.AppForm.frmDirectCarSetup.png" />
+    <Content Include="MenuIcon\Mes.Pbs.AppForm.frmIntervalSetup.png" />
+    <Content Include="MenuIcon\Mes.Pbs.AppForm.frmPbsControlSetup.png" />
+    <Content Include="MenuIcon\Mes.Pbs.AppForm.frmPbsGroupInPriority.png" />
+    <Content Include="MenuIcon\Mes.Pbs.AppForm.frmPbsGroupSetup.png" />
+    <Content Include="MenuIcon\Mes.Pbs.AppForm.frmPbsLaneDeviceConfig.png" />
+    <Content Include="MenuIcon\Mes.Pbs.AppForm.frmPbsOnline1Ex.png" />
+    <Content Include="MenuIcon\Mes.Pbs.AppForm.frmPbsOutTravelQuery.png" />
+    <Content Include="MenuIcon\Mes.Pbs.AppForm.frmPbsSignal1Ex.png" />
+    <Content Include="MenuIcon\Mes.Pbs.AppForm.frmPbsSpecialCarColorSetup.png" />
+    <Content Include="MenuIcon\Mes.Pbs.AppForm.frmPbsSpecialCarLineSetup.png" />
+    <Content Include="MenuIcon\Mes.Pbs.AppForm.frmShortPartSetup.png" />
+    <Content Include="MenuIcon\Mes.Pbs.AppForm.frmTrimModelPriority.png" />
+    <Content Include="MenuIcon\Mes.Plan.AppForm.frmCarProjectPlanModify.png" />
+    <Content Include="MenuIcon\Mes.Plan.AppForm.frmDayPlanQuery.png" />
+    <Content Include="MenuIcon\Mes.Plan.AppForm.frmMonthPlanQuery.png" />
+    <Content Include="MenuIcon\Mes.Plan.AppForm.frmNoPlanOrderQuery.png" />
+    <Content Include="MenuIcon\Mes.Plan.AppForm.frmWeekPlanQuery.png" />
+    <Content Include="MenuIcon\Mes.Produce.AppForm.frmModuleDayPlan.png" />
+    <Content Include="MenuIcon\Mes.Produce.AppForm.frmModuleHourConfig.png" />
+    <Content Include="MenuIcon\Mes.Produce.AppForm.frmModuleHourProduce.png" />
+    <Content Include="MenuIcon\Mes.Produce.AppForm.frmModulePrint.png" />
+    <Content Include="MenuIcon\Mes.Produce.AppForm.frmSynchroAgainSend.png" />
+    <Content Include="MenuIcon\Mes.Produce.AppForm.frmSynchroClient.png" />
+    <Content Include="MenuIcon\Mes.Produce.AppForm.frmSynchroClientStatus.png" />
+    <Content Include="MenuIcon\Mes.Trim.AppForm.frmAbnormalMaintain.png" />
+    <Content Include="MenuIcon\Mes.Trim.AppForm.frmCartypePartQuery.png" />
+    <Content Include="MenuIcon\Mes.Trim.AppForm.frmCheckLineFinishScan.png" />
+    <Content Include="MenuIcon\Mes.Trim.AppForm.frmCheckLinePopScan.png" />
+    <Content Include="MenuIcon\Mes.Trim.AppForm.frmConfigQuery.png" />
+    <Content Include="MenuIcon\Mes.Trim.AppForm.frmDebugFinishScan.png" />
+    <Content Include="MenuIcon\Mes.Trim.AppForm.frmDebugOfflinePopScan.png" />
+    <Content Include="MenuIcon\Mes.Trim.AppForm.frmEngine1Scan.png" />
+    <Content Include="MenuIcon\Mes.Trim.AppForm.frmEngineNoModify.png" />
+    <Content Include="MenuIcon\Mes.Trim.AppForm.frmOffline1Scan.png" />
+    <Content Include="MenuIcon\Mes.Trim.AppForm.frmOfflinePop1Scan.png" />
+    <Content Include="MenuIcon\Mes.Trim.AppForm.frmProduceDepartmentOrder.png" />
+    <Content Include="MenuIcon\Mes.Trim.AppForm.frmProduceTagBatchModify.png" />
+    <Content Include="MenuIcon\Mes.Trim.AppForm.frmProduceTagCarTypePart.png" />
+    <Content Include="MenuIcon\Mes.Trim.AppForm.frmProduceTagCodeManage.png" />
+    <Content Include="MenuIcon\Mes.Trim.AppForm.frmProduceTagManage.png" />
+    <Content Include="MenuIcon\Mes.Trim.AppForm.frmProduceTagModify.png" />
+    <Content Include="MenuIcon\Mes.Trim.AppForm.frmProduceTagPrintQuery.png" />
+    <Content Include="MenuIcon\Mes.Trim.AppForm.frmReturnCarQuery.png" />
+    <Content Include="MenuIcon\Mes.Trim.AppForm.frmReturnItemQuery.png" />
+    <Content Include="MenuIcon\Mes.Trim.AppForm.frmReturnOrder.png" />
+    <Content Include="MenuIcon\Mes.Trim.AppForm.frmRoadTestPopScan.png" />
+    <Content Include="MenuIcon\Mes.Trim.AppForm.frmSalesReturnInStock.png" />
+    <Content Include="MenuIcon\Mes.Trim.AppForm.frmTrimIn1Scan.png" />
+    <Content Include="MenuIcon\Mes.Trim.AppForm.frmWorkshopRecvOrder.png" />
+    <Content Include="MenuIcon\Mes.Work.AppForm.frmLineStandardSetup.png" />
+    <Content Include="MenuIcon\Mes.Work.AppForm.frmLineStatusQuery.png" />
+    <Content Include="MenuIcon\Mes.Work.AppForm.frmWorkCalendarSetup.png" />
+    <Content Include="MenuIcon\OEE管理.png" />
+    <Content Include="MenuIcon\PBS控制一期.png" />
+    <Content Include="MenuIcon\作业管理.png" />
+    <Content Include="MenuIcon\总装控制一期.png" />
+    <Content Include="MenuIcon\涂装控制一期.png" />
+    <Content Include="MenuIcon\生产实绩.png" />
+    <Content Include="MenuIcon\生产指示.png" />
+    <Content Include="MenuIcon\生产计划.png" />
+    <Content Include="MenuIcon\系统管理.png" />
+    <Content Include="MenuIcon\设备管理.png" />
+    <Content Include="MenuIcon\车辆管理.png" />
+    <Content Include="MenuIcon\遵守率管理.png" />
+    <Content Include="Sound\Feed.wav" />
+    <Content Include="Sound\PassSound.WAV" />
+    <Content Include="Sound\WarningSound.wav" />
+    <Content Include="Sound\WarningSound1.wav" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

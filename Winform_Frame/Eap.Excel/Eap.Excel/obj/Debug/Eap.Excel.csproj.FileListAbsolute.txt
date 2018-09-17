@@ -1,0 +1,7 @@
+E:\Code\MES2\企业应用开发平台\源代码\bin\Eap.Excel.dll
+E:\Code\MES2\企业应用开发平台\源代码\bin\Eap.Excel.pdb
+E:\Code\MES2\企业应用开发平台\源代码\Eap.Excel\Eap.Excel\obj\Debug\Eap.Excel.csprojResolveAssemblyReference.cache
+E:\Code\MES2\企业应用开发平台\源代码\Eap.Excel\Eap.Excel\obj\Debug\Eap.Excel.dll
+E:\Code\MES2\企业应用开发平台\源代码\Eap.Excel\Eap.Excel\obj\Debug\Eap.Excel.pdb
+E:\Code\MES2\工程管理系统\发布包\Eap.Excel.dll
+E:\Code\MES2\工程管理系统\发布包\Eap.Excel.pdb

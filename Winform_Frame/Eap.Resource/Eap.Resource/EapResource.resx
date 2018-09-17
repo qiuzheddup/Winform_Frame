@@ -1,0 +1,598 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="Add" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>image\add.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Backgroud" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>image\backgroud.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="BrownButtonDisable" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>image\brownbuttondisable.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="BrownButtonDown" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>image\brownbuttondown.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="BrownButtonUp" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>image\brownbuttonup.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ButtonDisable" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Image\ButtonDisable.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ButtonDown" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Image\ButtonDown.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ButtonExitBackground" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Image\ButtonExitBackground.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ButtonExitMouseDown" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Image\ButtonExitMouseDown.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ButtonUp" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Image\ButtonUp.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Clean" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>image\clean.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CloseButton" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>image\closebutton.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CurrentPosition" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>image\currentposition.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Delete" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>image\delete.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Eap_AppForm_frmChangePwd" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>menuicon\eap.appform.frmchangepwd.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Eap_AppForm_frmDepartmentManage" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>menuicon\eap.appform.frmdepartmentmanage.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Eap_AppForm_frmFileManage" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>menuicon\eap.appform.frmfilemanage.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Eap_AppForm_frmLogQuery" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>menuicon\eap.appform.frmlogquery.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Eap_AppForm_frmMenuManage" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>menuicon\eap.appform.frmmenumanage.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Eap_AppForm_frmServerProcessStatusQuery" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>menuicon\eap.appform.frmserverprocessstatusquery.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Eap_AppForm_frmSystemParameterManage" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>menuicon\eap.appform.frmsystemparametermanage.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Eap_AppForm_frmUserManage" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>menuicon\eap.appform.frmusermanage.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Eap_AppForm_frmValueListManage" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>menuicon\eap.appform.frmvaluelistmanage.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="LoginHead" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>image\loginhead.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MainLeftButton" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>image\mainleftbutton.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MainLeftButtonDown" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>image\mainleftbuttondown.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MainRightButton" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>image\mainrightbutton.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MainRightButtonDown" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>image\mainrightbuttondown.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Menu" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>image\menu.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Mes_Abide_AppForm_frmInStockTimeAbide" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>menuicon\mes.abide.appform.frminstocktimeabide.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Mes_Abide_AppForm_frmOrderAbide" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>menuicon\mes.abide.appform.frmorderabide.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Mes_Abide_AppForm_frmPaintOfflineTimeAbide" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>menuicon\mes.abide.appform.frmpaintofflinetimeabide.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Mes_Abide_AppForm_frmPaintOnlineTimeAbide" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>menuicon\mes.abide.appform.frmpaintonlinetimeabide.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Mes_Abide_AppForm_frmPaintOrderAbsoluteAbide" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>menuicon\mes.abide.appform.frmpaintorderabsoluteabide.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Mes_Abide_AppForm_frmPaintOrderRelativeAbide" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>menuicon\mes.abide.appform.frmpaintorderrelativeabide.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Mes_Abide_AppForm_frmTrimOfflineTimeAbide" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>menuicon\mes.abide.appform.frmtrimofflinetimeabide.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Mes_Abide_AppForm_frmTrimOnlineTimeAbide" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>menuicon\mes.abide.appform.frmtrimonlinetimeabide.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Mes_Abide_AppForm_frmTrimOrderAbsoluteAbide" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>menuicon\mes.abide.appform.frmtrimorderabsoluteabide.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Mes_Abide_AppForm_frmTrimOrderRelativeAbide" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>menuicon\mes.abide.appform.frmtrimorderrelativeabide.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Mes_Actual_AppForm_frmActualGraph" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>menuicon\mes.actual.appform.frmactualgraph.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Mes_Actual_AppForm_frmActualMoniter" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>menuicon\mes.actual.appform.frmactualmoniter.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Mes_Actual_AppForm_frmActualMoniterPassPoint" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>menuicon\mes.actual.appform.frmactualmoniterpasspoint.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Mes_Actual_AppForm_frmInStockRate" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>menuicon\mes.actual.appform.frminstockrate.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Mes_Actual_AppForm_frmMonthProduceProgress" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>menuicon\mes.actual.appform.frmmonthproduceprogress.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Mes_Actual_AppForm_frmPaintDayBalance" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>menuicon\mes.actual.appform.frmpaintdaybalance.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Mes_Actual_AppForm_frmProduceMoniter" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>menuicon\mes.actual.appform.frmproducemoniter.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Mes_Actual_AppForm_frmProduceProgress" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>menuicon\mes.actual.appform.frmproduceprogress.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Mes_Actual_AppForm_frmTrimDayBalance" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>menuicon\mes.actual.appform.frmtrimdaybalance.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Mes_Car_AppForm_frmAdvanceCarQuery" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>menuicon\mes.car.appform.frmadvancecarquery.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Mes_Car_AppForm_frmAdvanceCarTimeSetup" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>menuicon\mes.car.appform.frmadvancecartimesetup.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Mes_Car_AppForm_frmCarBroken" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>menuicon\mes.car.appform.frmcarbroken.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Mes_Car_AppForm_frmCarDetail" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>menuicon\mes.car.appform.frmcardetail.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Mes_Car_AppForm_frmCarFlagQuery" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>menuicon\mes.car.appform.frmcarflagquery.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Mes_Car_AppForm_frmCarFlagSetup" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>menuicon\mes.car.appform.frmcarflagsetup.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Mes_Car_AppForm_frmCarInfoWarningCM7" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>menuicon\mes.car.appform.frmcarinfowarningcm7.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Mes_Car_AppForm_frmCarMove" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>menuicon\mes.car.appform.frmcarmove.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Mes_Car_AppForm_frmCarQuery" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>menuicon\mes.car.appform.frmcarquery.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Mes_Car_AppForm_frmDelayCarQuery" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>menuicon\mes.car.appform.frmdelaycarquery.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Mes_Car_AppForm_frmDelayCarTimeSetup" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>menuicon\mes.car.appform.frmdelaycartimesetup.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Mes_Car_AppForm_frmStopCarQuery" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>menuicon\mes.car.appform.frmstopcarquery.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Mes_Device_AppForm_frmPrinterManage" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>menuicon\mes.device.appform.frmprintermanage.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Mes_Oee_AppForm_frmFixedStop" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>menuicon\mes.oee.appform.frmfixedstop.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Mes_Oee_AppForm_frmPaintLineStopMaintain" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>menuicon\mes.oee.appform.frmpaintlinestopmaintain.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Mes_Oee_AppForm_frmPaintOEE" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>menuicon\mes.oee.appform.frmpaintoee.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Mes_Oee_AppForm_frmTrimLineStopMaintain" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>menuicon\mes.oee.appform.frmtrimlinestopmaintain.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Mes_Oee_AppForm_frmTrimOEE" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>menuicon\mes.oee.appform.frmtrimoee.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Mes_Paint_AppForm_frmCheckOneScan" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>menuicon\mes.paint.appform.frmcheckonescan.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Mes_Paint_AppForm_frmCheckTwoScan" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>menuicon\mes.paint.appform.frmchecktwoscan.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Mes_Paint_AppForm_frmElectrophoresisScan" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>menuicon\mes.paint.appform.frmelectrophoresisscan.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Mes_Paint_AppForm_frmMachineFinishScan" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>menuicon\mes.paint.appform.frmmachinefinishscan.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Mes_Paint_AppForm_frmMachineMidScan" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>menuicon\mes.paint.appform.frmmachinemidscan.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Mes_Paint_AppForm_frmMachinePvcScan" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>menuicon\mes.paint.appform.frmmachinepvcscan.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Mes_Paint_AppForm_frmMidPolishScan" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>menuicon\mes.paint.appform.frmmidpolishscan.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Mes_Paint_AppForm_frmPaintCarSeries" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>menuicon\mes.paint.appform.frmpaintcarseries.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Mes_Paint_AppForm_frmPaintColor" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>menuicon\mes.paint.appform.frmpaintcolor.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Mes_Paint_AppForm_frmPaintOfflineScan" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>menuicon\mes.paint.appform.frmpaintofflinescan.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Mes_Paint_AppForm_frmPaintOnline" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>menuicon\mes.paint.appform.frmpaintonline.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Mes_Paint_AppForm_frmSealantOneScan" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>menuicon\mes.paint.appform.frmsealantonescan.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Mes_Paint_AppForm_frmSealantTwoScan" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>menuicon\mes.paint.appform.frmsealanttwoscan.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Mes_Paint_AppForm_frmSkirtSideGlueScan" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>menuicon\mes.paint.appform.frmskirtsidegluescan.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Mes_Pbs_AppForm_frmContinueSetup" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>menuicon\mes.pbs.appform.frmcontinuesetup.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Mes_Pbs_AppForm_frmDirectCarSetup" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>menuicon\mes.pbs.appform.frmdirectcarsetup.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Mes_Pbs_AppForm_frmIntervalSetup" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>menuicon\mes.pbs.appform.frmintervalsetup.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Mes_Pbs_AppForm_frmPbsControlSetup" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>menuicon\mes.pbs.appform.frmpbscontrolsetup.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Mes_Pbs_AppForm_frmPbsGroupInPriority" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>menuicon\mes.pbs.appform.frmpbsgroupinpriority.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Mes_Pbs_AppForm_frmPbsGroupSetup" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>menuicon\mes.pbs.appform.frmpbsgroupsetup.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Mes_Pbs_AppForm_frmPbsLaneDeviceConfig" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>menuicon\mes.pbs.appform.frmpbslanedeviceconfig.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Mes_Pbs_AppForm_frmPbsOnline1Ex" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>menuicon\mes.pbs.appform.frmpbsonline1ex.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Mes_Pbs_AppForm_frmPbsOutTravelQuery" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>menuicon\mes.pbs.appform.frmpbsouttravelquery.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Mes_Pbs_AppForm_frmPbsSignal1Ex" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>menuicon\mes.pbs.appform.frmpbssignal1ex.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Mes_Pbs_AppForm_frmPbsSpecialCarColorSetup" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>menuicon\mes.pbs.appform.frmpbsspecialcarcolorsetup.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Mes_Pbs_AppForm_frmPbsSpecialCarLineSetup" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>menuicon\mes.pbs.appform.frmpbsspecialcarlinesetup.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Mes_Pbs_AppForm_frmShortPartSetup" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>menuicon\mes.pbs.appform.frmshortpartsetup.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Mes_Pbs_AppForm_frmTrimModelPriority" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>menuicon\mes.pbs.appform.frmtrimmodelpriority.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Mes_Plan_AppForm_frmCarProjectPlanModify" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>menuicon\mes.plan.appform.frmcarprojectplanmodify.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Mes_Plan_AppForm_frmDayPlanQuery" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>menuicon\mes.plan.appform.frmdayplanquery.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Mes_Plan_AppForm_frmMonthPlanQuery" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>menuicon\mes.plan.appform.frmmonthplanquery.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Mes_Plan_AppForm_frmNoPlanOrderQuery" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>menuicon\mes.plan.appform.frmnoplanorderquery.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Mes_Plan_AppForm_frmWeekPlanQuery" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>menuicon\mes.plan.appform.frmweekplanquery.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Mes_Produce_AppForm_frmModuleDayPlan" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>menuicon\mes.produce.appform.frmmoduledayplan.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Mes_Produce_AppForm_frmModuleHourConfig" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>menuicon\mes.produce.appform.frmmodulehourconfig.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Mes_Produce_AppForm_frmModuleHourProduce" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>menuicon\mes.produce.appform.frmmodulehourproduce.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Mes_Produce_AppForm_frmModulePrint" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>menuicon\mes.produce.appform.frmmoduleprint.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Mes_Produce_AppForm_frmSynchroAgainSend" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>menuicon\mes.produce.appform.frmsynchroagainsend.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Mes_Produce_AppForm_frmSynchroClient" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>menuicon\mes.produce.appform.frmsynchroclient.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Mes_Produce_AppForm_frmSynchroClientStatus" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>menuicon\mes.produce.appform.frmsynchroclientstatus.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Mes_Trim_AppForm_frmAbnormalMaintain" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>menuicon\mes.trim.appform.frmabnormalmaintain.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Mes_Trim_AppForm_frmCartypePartQuery" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>menuicon\mes.trim.appform.frmcartypepartquery.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Mes_Trim_AppForm_frmCheckLineFinishScan" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>menuicon\mes.trim.appform.frmchecklinefinishscan.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Mes_Trim_AppForm_frmCheckLinePopScan" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>menuicon\mes.trim.appform.frmchecklinepopscan.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Mes_Trim_AppForm_frmConfigQuery" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>menuicon\mes.trim.appform.frmconfigquery.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Mes_Trim_AppForm_frmDebugFinishScan" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>menuicon\mes.trim.appform.frmdebugfinishscan.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Mes_Trim_AppForm_frmDebugOfflinePopScan" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>menuicon\mes.trim.appform.frmdebugofflinepopscan.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Mes_Trim_AppForm_frmEngine1Scan" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>menuicon\mes.trim.appform.frmengine1scan.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Mes_Trim_AppForm_frmEngineNoModify" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>menuicon\mes.trim.appform.frmenginenomodify.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Mes_Trim_AppForm_frmOffline1Scan" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>menuicon\mes.trim.appform.frmoffline1scan.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Mes_Trim_AppForm_frmOfflinePop1Scan" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>menuicon\mes.trim.appform.frmofflinepop1scan.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Mes_Trim_AppForm_frmProduceDepartmentOrder" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>menuicon\mes.trim.appform.frmproducedepartmentorder.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Mes_Trim_AppForm_frmProduceTagBatchModify" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>menuicon\mes.trim.appform.frmproducetagbatchmodify.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Mes_Trim_AppForm_frmProduceTagCarTypePart" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>menuicon\mes.trim.appform.frmproducetagcartypepart.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Mes_Trim_AppForm_frmProduceTagCodeManage" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>menuicon\mes.trim.appform.frmproducetagcodemanage.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Mes_Trim_AppForm_frmProduceTagManage" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>menuicon\mes.trim.appform.frmproducetagmanage.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Mes_Trim_AppForm_frmProduceTagModify" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>menuicon\mes.trim.appform.frmproducetagmodify.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Mes_Trim_AppForm_frmProduceTagPrintQuery" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>menuicon\mes.trim.appform.frmproducetagprintquery.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Mes_Trim_AppForm_frmReturnCarQuery" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>menuicon\mes.trim.appform.frmreturncarquery.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Mes_Trim_AppForm_frmReturnItemQuery" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>menuicon\mes.trim.appform.frmreturnitemquery.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Mes_Trim_AppForm_frmReturnOrder" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>menuicon\mes.trim.appform.frmreturnorder.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Mes_Trim_AppForm_frmRoadTestPopScan" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>menuicon\mes.trim.appform.frmroadtestpopscan.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Mes_Trim_AppForm_frmSalesReturnInStock" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>menuicon\mes.trim.appform.frmsalesreturninstock.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Mes_Trim_AppForm_frmTrimIn1Scan" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>menuicon\mes.trim.appform.frmtrimin1scan.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Mes_Trim_AppForm_frmWorkshopRecvOrder" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>menuicon\mes.trim.appform.frmworkshoprecvorder.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Mes_Work_AppForm_frmLineStandardSetup" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>menuicon\mes.work.appform.frmlinestandardsetup.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Mes_Work_AppForm_frmLineStatusQuery" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>menuicon\mes.work.appform.frmlinestatusquery.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Mes_Work_AppForm_frmWorkCalendarSetup" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>menuicon\mes.work.appform.frmworkcalendarsetup.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MinimizeButton" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>image\minimizebutton.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="OEE管理" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>menuicon\oee管理.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PassSound" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>sound\passsound.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="PBS控制一期" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>menuicon\pbs控制一期.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Return" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>image\return.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Revise" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>image\revise.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Search" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>image\search.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Service" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>image\service.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SubLeftButton" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>image\subleftbutton.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SubLeftButtonDown" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>image\subleftbuttondown.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SubRightButton" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>image\subrightbutton.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SubRightButtonDown" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>image\subrightbuttondown.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="WarningSound" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>sound\warningsound.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="WarningSound1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>sound\warningsound1.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="作业管理" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>menuicon\作业管理.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="总装控制一期" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>menuicon\总装控制一期.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="涂装控制一期" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>menuicon\涂装控制一期.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="生产实绩" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>menuicon\生产实绩.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="生产指示" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>menuicon\生产指示.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="生产计划" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>menuicon\生产计划.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="系统管理" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>menuicon\系统管理.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="设备管理" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>menuicon\设备管理.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="车辆管理" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>menuicon\车辆管理.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="遵守率管理" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>menuicon\遵守率管理.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Feed" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Sound\Feed.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+</root>
